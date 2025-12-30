@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="project1.css" type="text/css">
+    <title>HTML-MEGA PROJECT</title>
+</head>
+<body>,
+    <header>
+            <h1>HTML MEGA PRACTICE PROJECT</h1>
+            <p><strong>Goal: </strong>Practice <mark>ALL HTML tags </mark>in one page</p>
+    </header>
+            <nav>
+                <ul>
+                <li> <a href="#text">Text</a> |</li>
+                <li><a href="#lists">Lists</a>  |</li>
+                <li><a href="#table">Table</a>  |</li>
+                <li><a href="#form">Form</a>  |</li>
+                <li><a href="#media">Media</a></li>
+                </ul>
+            </nav>
+            
+
+            <section id="text">
+                              <h2> 1️⃣ Text Formatting Tags</h2>
+                              <p>This is a <b style="color: #000;">bold</b> text</p>
+                              <p>This is a <strong style="color: #000;">strong</strong> text</p>
+                              <p>This is an <i>italic</i>text </p>
+                              <p>This is an <em>emphasized</em> text</p>
+                              <p>This is an <u>underline</u> text</p>
+                              <p>This is <mark>highlited</mark> text</p>
+                              <p>This is <small>small</small> text</p>
+                              <p>This is <del>deleted</del> text</p>
+                              <p>This is <ins>inserted</ins> text</p>
+                              <p>H<sub>2</sub>O</p>
+                              <p>10<sup>2</sup>=100</p>
+                              <blockquote><q>Practice makes a man perfect</q></blockquote>
+                              <q>HTML is easy when you practice</q>
+                              <p><abbr title="Hypertext Markup Language">HTML</abbr></p>
+                              <address>Written by Student <br>India</address>
+                              <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+                              <pre>
+ HTML
+     CSS
+         javaScript
+                              </pre>
+            </section><hr>
+            <section id="lists">
+                                <h2>2️⃣ Lists</h2>
+                                <h3>Unordered List</h3>
+                                 
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                </ul>
+
+                                <ol>
+                                    <li>Learn HTML</li>
+                                    <li>Learn CSS</li>
+                                    <li>Learn JS</li>
+                                </ol>
+
+                                <dl>
+                                    <dt>HTML</dt>
+                                    <dd>Structure of web pages</dd>
+                                    <dt>CSS</dt>
+                                    <dd>Style of web pages</dd>
+                                </dl>
+            </section><hr>
+            <section id="table">
+                <h2>3️ Table</h2>
+                <table class="table1">
+                       <caption>Student Details</caption>
+                       <thead>
+                              <tr>
+                                <th>Name</th>
+                                <th>Course</th>
+                                <th>Score</th>
+                              </tr>
+                       </thead>
+                        <tbody>
+                               <tr>
+                                <td>Ravi</td>
+                                <td>HTML</td>
+                                <td>90</td>
+                               </tr>
+                               <tr>
+                                <td>Anu</td>
+                                <td>CSS</td>
+                                <td>85</td>
+                               </tr>
+                               <tr>
+                                <td colspan="3">End of Table</td>
+                            </tr>
+                        </tbody>                      
+                </table>
+            </section><hr>
+            <section id="form">
+                               <h2>4️⃣ Forms</h2>
+                               <label for="name">Name :</label>
+                               <input type="text"><br><br>
+                               <label for="email">Email :</label>
+                               <input type="email"><br><br>
+                               <label for="password">Password :</label>
+                               <input type="password" required><br><br>
+                               <label for="age">Age :</label>
+                               <!-- <input type="number" min="1" max="100" oninput="if(age.value>100) age.value=100;"><br><br> -->
+                                <input type="number"><br><br>
+                               <label for="date">Date :</label>
+                               <input type="date" required><br><br>
+                               <label for="gender">Gender :</label>
+                               <input type="radio" name="gender">
+                               <label for="gender">Male</label>
+                               <input type="radio" name="gender">
+                               <label for="gender">Female</label><br><br>
+                               <label for="Skills">Skills :</label>
+                               <input type="checkbox">
+                               <label for="Skills">HTML</label>
+                               <input type="checkbox">
+                               <label for="skills">CSS</label> <br><br>
+                               <label for="country">Country :</label>
+                               <select name="country">
+                                                      <option value="">India</option>
+                                                      <option value="">USA</option>
+                                                      <option value="">PAKISTAN</option>
+                               </select> <br><br>
+                               <label for="message">Message :</label><br>
+                               <textarea  rows="4" cols="30"></textarea><br><br>
+                               <button value="submit">Submit</button>
+                               <button value="Reset">Reset</button>
+            </section><hr>
+            <section id="media">
+                                <h2>5️ Media</h2>
+                                <h3>Image</h3>
+                                <img src="" alt="Slample image">
+                                <h3>Audio</h3>
+                                <audio src="" controls></audio>
+                                <h3>Video</h3>
+                                <video src=""controls ></video>
+                                <h3>Iframe</h3>
+                                <iframe src="www.facebook.com" frameborder="1" ></iframe>
+</section><hr>
+<section>
+         <h2>6️ Extra Tags</h2>
+         <details class="hidemsg">
+            <summary> click to expand</summary>
+            <p>This is hidden content</p>
+        </details>
+        <p>Progress :</p>
+        <progress  max="50" value="25" ></progress>
+
+        <p>Meter :</p>
+        <meter value="02.5" max="10"></meter>
+</section><hr>
+<footer>
+        <p>&copy; 2025 HTML Practice Project</p>
+</footer>
+</body>
+</html>
