@@ -38,11 +38,12 @@ h2{
     color: rgba(12, 224, 224, 0.692);
 }
 nav ul{
-    margin: 10px 0px;
+    margin-left: 20px ;
     border: solid 2px #19c4e2;
     display: flex;
-    width: 100%;
-    padding: 10px 0px;
+    border-radius: 15px 0px 15px 0px;
+    width: 95vw;
+    padding: 10px 10px;
     justify-content: center;
     list-style: none;   
 }
