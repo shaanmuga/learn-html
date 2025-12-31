@@ -19,11 +19,11 @@
     text-align: center;
 }
 html,body{
-    color: aqua;
+    /* color: #19c4e2; */
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
-    background-image: url('bgpic.jpg');
+    /* background-image: url('bgpic.jpg'); */
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
